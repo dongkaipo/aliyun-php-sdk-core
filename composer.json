@@ -1,0 +1,21 @@
+{
+    "name": "dongkaipo/aliyun-php-sdk-core",
+    "description": "Aliyun php sdk core composer support",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jack",
+            "email": "dongkaipo@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "Aliyun\\Core\\":"skd"
+        }
+    }
+}
