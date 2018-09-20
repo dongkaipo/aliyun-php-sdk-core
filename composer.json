@@ -9,13 +9,13 @@
             "email": "dongkaipo@126.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.0"
     },
     "autoload":{
         "psr-4": {
-            "Aliyun\\Core\\":"skd"
+            "Aliyun\\Core\\":"sdk"
         }
     }
 }
