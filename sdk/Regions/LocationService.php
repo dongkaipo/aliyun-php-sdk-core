@@ -1,4 +1,5 @@
 <?php
+namespace Aliyun\Core\Regions;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -17,6 +18,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+use Aliyun\Core\Http\HttpHelper;
+use Aliyun\Core\RpcAcsRequest;
 
 define("LOCATION_SERVICE_PRODUCT_NAME", "Location");
 define("LOCATION_SERVICE_DOMAIN", "location.aliyuncs.com");

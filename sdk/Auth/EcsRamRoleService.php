@@ -1,4 +1,5 @@
 <?php
+namespace Aliyun\Core\Auth;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -17,6 +18,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+use Aliyun\Core\Http\HttpHelper;
 
 define("ECS_ROLE_EXPIRE_TIME", 3600);
 

@@ -1,4 +1,5 @@
 <?php
+namespace Aliyun\Core;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -17,6 +18,15 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+use Aliyun\Core\Auth\EcsRamRoleService;
+use Aliyun\Core\Auth\RamRoleArnService;
+use Aliyun\Core\Exception\ClientException;
+use Aliyun\Core\Exception\ServerException;
+use Aliyun\Core\Http\HttpHelper;
+use Aliyun\Core\Regions\EndpointProvider;
+use Aliyun\Core\Regions\LocationService;
+
 class DefaultAcsClient implements IAcsClient
 {
     public $iClientProfile;

@@ -1,4 +1,5 @@
 <?php
+namespace Aliyun\Core\Exception;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -17,6 +18,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+use Exception;
+
 class ClientException extends Exception
 {
     public function __construct($errorMessage, $errorCode)

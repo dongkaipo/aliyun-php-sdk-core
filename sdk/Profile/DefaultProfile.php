@@ -1,4 +1,5 @@
 <?php
+namespace Aliyun\Core\Profile;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -17,6 +18,15 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+use Aliyun\Core\Auth\Credential;
+use Aliyun\Core\Auth\EcsRamRoleCredential;
+use Aliyun\Core\Auth\RamRoleArnCredential;
+use Aliyun\Core\Auth\ShaHmac1Signer;
+use Aliyun\Core\Regions\Endpoint;
+use Aliyun\Core\Regions\EndpointProvider;
+use Aliyun\Core\Regions\LocationService;
+use Aliyun\Core\Regions\ProductDomain;
 
 define("AUTH_TYPE_RAM_AK", "RAM_AK");
 define("AUTH_TYPE_RAM_ROLE_ARN", "RAM_ROLE_ARN");

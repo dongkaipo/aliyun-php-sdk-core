@@ -1,4 +1,5 @@
 <?php
+namespace Aliyun\Core;
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -17,6 +18,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+use Aliyun\Core\Autoloader\Autoloader;
+
 include_once 'Autoloader/Autoloader.php';
 include_once 'Regions/EndpointConfig.php';
 include_once 'Regions/LocationService.php';
